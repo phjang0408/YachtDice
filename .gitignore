@@ -1,0 +1,17 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build outputs
+Debug/
+Release/
+x64/
+x86/
+
+# CMake (혹시 쓸 경우)
+CMakeFiles/
+CMakeCache.txt
+
+# Logs
+*.log
