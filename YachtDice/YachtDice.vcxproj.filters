@@ -18,5 +18,25 @@
     <ClCompile Include="YachtDice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ScoreBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ScoreCategory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scorer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

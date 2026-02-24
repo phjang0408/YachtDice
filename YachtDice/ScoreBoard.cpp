@@ -22,6 +22,24 @@ void ScoreBoard::SetScore(ScoreCategory category, int score) {
     slot.score = score;
 }
 
+int ScoreBoard::GetSubTotalScore() const {
+    int sum = 0;
+    for (int i = static_cast<int>(ScoreCategory::Ones);
+        i <= static_cast<int>(ScoreCategory::Sixes); ++i) {
+
+        auto each_numbers_under_six = static_cast<ScoreCategory>(i);
+
+        if (IsUsed(each_numbers_under_six)) {
+            sum += GetScore(each_numbers_under_six);
+        }
+    }
+    return sum;
+}
+
+int ScoreBoard::GetBonus() const {
+    return GetSubTotalScore() >= 63 ? 35 : 0;
+}
+
 // ÃÑÁ¡ °è»ê
 int ScoreBoard::GetTotalScore() const {
     int total = 0;

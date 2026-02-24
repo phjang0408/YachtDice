@@ -123,7 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ScoreBoard.cpp" />
+    <ClCompile Include="Scorer.cpp" />
     <ClCompile Include="YachtDice.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="ScoreBoard.h" />
+    <ClInclude Include="ScoreCategory.h" />
+    <ClInclude Include="Scorer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

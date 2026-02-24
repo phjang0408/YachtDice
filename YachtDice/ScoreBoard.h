@@ -5,7 +5,7 @@
 // 족보당 할당 점수
 struct ScoreSlot {
 	bool used = false;
-	int score = 0;
+	int score = 0;	// 사용자가 채우는 점수칸
 };
 
 // 점수판
@@ -16,8 +16,11 @@ public:
 	bool IsUsed(ScoreCategory category) const;
 	int GetScore(ScoreCategory category) const;
 	void SetScore(ScoreCategory category, int score);
+
+	int GetSubTotalScore() const;
+	int GetBonus()const;
 	int GetTotalScore() const;
 private:
-	// enum class를 정수 상수식으로 '캐스팅', 
+	// 점수판 : slots
 	std::array<ScoreSlot, static_cast<size_t>(ScoreCategory::COUNT)> slots;
 };
