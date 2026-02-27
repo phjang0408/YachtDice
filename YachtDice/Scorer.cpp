@@ -1,7 +1,7 @@
 #include "Scorer.h"
 
 std::array<ScoreSlot, static_cast<size_t>(ScoreCategory::COUNT)>
-Scorer::MakePreviewScores(std::vector<int>& dice) {
+Scorer::MakePreviewScores(std::array<int,5>& dice) {
 	// 1. 빈도수 배열 만들기
 	std::array<int, 6> freq = makeFreqArray(dice);
 
@@ -18,7 +18,7 @@ Scorer::MakePreviewScores(std::vector<int>& dice) {
 	return Prev_ScoreBoard;
 }
 
-std::array<int, 6> Scorer::makeFreqArray(const std::vector<int>& diceVec) {
+std::array<int, 6> Scorer::makeFreqArray(const std::array<int,5>& diceVec) {
 	std::array<int, 6> freq = { 0 };
 
 	// (diceVec의 값 - 1) = freq의 index (1~6 에서 0~5로)
@@ -29,7 +29,7 @@ std::array<int, 6> Scorer::makeFreqArray(const std::vector<int>& diceVec) {
 }
 
 // category에 따라서, 계산 방법을 다르게 
-int Scorer::CalcByCategory(ScoreCategory category, 	const std::vector<int>&dice,
+int Scorer::CalcByCategory(ScoreCategory category, 	const std::array<int,5>&dice,
 	const std::array<int, 6>& freq) {
 	switch (category) {
 	case(ScoreCategory::Ones):
@@ -59,7 +59,7 @@ int Scorer::Calc_Upper(ScoreCategory category, const std::array<int, 6> freq) {
 	return freq[CalcUp_Score] * (CalcUp_Score + 1);
 }
 
-int Scorer::Calc_Choice(const std::vector<int>& dice) {
+int Scorer::Calc_Choice(const std::array<int,5>& dice) {
 	int Choice_sum = 0;
 	for (auto it = 0; it < dice.size(); it++) {
 		Choice_sum += dice[it];
