@@ -1,17 +1,8 @@
-# Visual Studio
-.vs/
-*.user
-*.suo
-
-# Build outputs
+# Build outputs (기존 설정)
 Debug/
 Release/
 x64/
 x86/
 
-# CMake (혹시 쓸 경우)
-CMakeFiles/
-CMakeCache.txt
-
-# Logs
-*.log
+# 예외 설정
+!x64/Release/YachtDice.exe

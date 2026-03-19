@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\04_Code\\02_Yacht\\YachtDice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Scorer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\Scorer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\YachtDice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\YachtDice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ConsoleUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\ConsoleUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ConsoleUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\ConsoleUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ScoreBoard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\ScoreBoard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ScoreCategory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\ScoreCategory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\dice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\dice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Scorer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\Scorer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ScoreBoard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\ScoreBoard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Dice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49FCF863-541F-477B-8400-9760B2FB16AC}|YachtDice\\YachtDice.vcxproj|solutionrelative:YachtDice\\Dice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ScoreCategory.h",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ScoreCategory.h",
+              "RelativeDocumentMoniker": "YachtDice\\ScoreCategory.h",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ScoreCategory.h",
+              "RelativeToolTip": "YachtDice\\ScoreCategory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-23T11:29:39.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScoreBoard.h",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ScoreBoard.h",
+              "RelativeDocumentMoniker": "YachtDice\\ScoreBoard.h",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ScoreBoard.h",
+              "RelativeToolTip": "YachtDice\\ScoreBoard.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-23T11:32:44.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Scorer.h",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Scorer.h",
+              "RelativeDocumentMoniker": "YachtDice\\Scorer.h",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Scorer.h",
+              "RelativeToolTip": "YachtDice\\Scorer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-24T09:00:29.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dice.h",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Dice.h",
+              "RelativeDocumentMoniker": "YachtDice\\Dice.h",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Dice.h",
+              "RelativeToolTip": "YachtDice\\Dice.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-27T11:35:15.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConsoleUI.h",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ConsoleUI.h",
+              "RelativeDocumentMoniker": "YachtDice\\ConsoleUI.h",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ConsoleUI.h",
+              "RelativeToolTip": "YachtDice\\ConsoleUI.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-19T06:43:33.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Player.h",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Player.h",
+              "RelativeDocumentMoniker": "YachtDice\\Player.h",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Player.h",
+              "RelativeToolTip": "YachtDice\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-03T08:23:59.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameManager.h",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\GameManager.h",
+              "RelativeDocumentMoniker": "YachtDice\\GameManager.h",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\GameManager.h",
+              "RelativeToolTip": "YachtDice\\GameManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-19T06:43:07.32Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "YachtDice.cpp",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\YachtDice.cpp",
+              "RelativeDocumentMoniker": "YachtDice\\YachtDice.cpp",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\YachtDice.cpp",
+              "RelativeToolTip": "YachtDice\\YachtDice.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-23T03:52:01.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\GameManager.cpp",
+              "RelativeDocumentMoniker": "YachtDice\\GameManager.cpp",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\GameManager.cpp",
+              "RelativeToolTip": "YachtDice\\GameManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-19T06:45:00.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsoleUI.cpp",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ConsoleUI.cpp",
+              "RelativeDocumentMoniker": "YachtDice\\ConsoleUI.cpp",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ConsoleUI.cpp",
+              "RelativeToolTip": "YachtDice\\ConsoleUI.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-19T06:43:54.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Player.cpp",
+              "RelativeDocumentMoniker": "YachtDice\\Player.cpp",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Player.cpp",
+              "RelativeToolTip": "YachtDice\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-03T08:24:31.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dice.cpp",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Dice.cpp",
+              "RelativeDocumentMoniker": "YachtDice\\Dice.cpp",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Dice.cpp",
+              "RelativeToolTip": "YachtDice\\Dice.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-27T11:45:39.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Scorer.cpp",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Scorer.cpp",
+              "RelativeDocumentMoniker": "YachtDice\\Scorer.cpp",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\Scorer.cpp",
+              "RelativeToolTip": "YachtDice\\Scorer.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAACMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-24T09:00:33.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ScoreBoard.cpp",
+              "DocumentMoniker": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ScoreBoard.cpp",
+              "RelativeDocumentMoniker": "YachtDice\\ScoreBoard.cpp",
+              "ToolTip": "D:\\04_Code\\02_Yacht\\YachtDice\\YachtDice\\ScoreBoard.cpp",
+              "RelativeToolTip": "YachtDice\\ScoreBoard.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-23T11:48:38.838Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
