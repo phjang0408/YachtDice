@@ -6,11 +6,11 @@ class Dice {
 public:
 	void Reset();
 	void Roll_Selected();
-	void Roll();
-	void Select_Keep(std::array<bool, 5> Request_Keep);
+	int Roll_One();
+	void Select_Keep(const std::array<bool, 5> Request_Keep);
 
-	const std::array<int, 5> get_dice_values() const;
-	const std::array<bool, 5> get_keep_status() const;
+	const std::array<int, 5>& get_dice_values() const;
+	const std::array<bool, 5>& get_keep_status() const;
 
 private:
 	std::array<int,5> Dice_Array;	// 주사위 값

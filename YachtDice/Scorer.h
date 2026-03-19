@@ -2,7 +2,6 @@
 #include "ScoreCategory.h"
 #include "ScoreBoard.h"
 #include <array>
-#include <vector>
 
 class Scorer {
 public:
