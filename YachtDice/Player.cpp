@@ -16,9 +16,16 @@ std::array<bool, 5> Player::DecideKeep() const {
 	return keep;
 }
 
-ScoreCategory Player::DecideCategory() const {
+ScoreCategory Player::DecideCategory(const ScoreBoard& board) const {
 	int choice;
-	std::cout << "[Rolling Chance End!]\n[Select category index] : ";
-	std::cin >> choice;
-	return static_cast<ScoreCategory>(choice);
+	while(true){
+		std::cout << "[Rolling Chance End!]\n[Select category index] : ";
+		std::cin >> choice;
+
+		auto cat = static_cast<ScoreCategory>(choice);
+		if (!board.IsUsed(cat)){
+			return cat;
+		}
+		std::cout << "Already used. Try again\n";
+	}
 }
