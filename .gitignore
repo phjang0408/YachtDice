@@ -1,8 +1,7 @@
-# Build outputs (기존 설정)
-Debug/
-Release/
+.vs/
+*.ipch
+*.db
 x64/
-x86/
-
-# 예외 설정
+Release/
+# 단, exe는 예외로 두었으므로 유지
 !x64/Release/YachtDice.exe
