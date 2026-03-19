@@ -9,7 +9,7 @@ const std::string& Player::GetName() const {
 
 std::array<bool, 5> Player::DecideKeep() const {
 	std::array<bool, 5> keep{};
-	std::cout << "Keep (0 or 1 for 5 dice): ";
+	std::cout << "[Decide Dice's Keep! (keep = 0, non-keep = 1)] : ";
 	for (int i = 0; i < 5; i++) {
 		std::cin >> keep[i];
 	}
@@ -18,7 +18,7 @@ std::array<bool, 5> Player::DecideKeep() const {
 
 ScoreCategory Player::DecideCategory() const {
 	int choice;
-	std::cout << "Select category index: ";
+	std::cout << "[Rolling Chance End!]\n[Select category index] : ";
 	std::cin >> choice;
 	return static_cast<ScoreCategory>(choice);
 }

@@ -13,5 +13,7 @@ public:
 
 	static int ShowMainMenu();
 
-	static std::string Category_To_String(ScoreCategory category);	// UI 출력용(Enum -> string)
+	static std::string Category_To_String(ScoreCategory category);	// UI 출력용(Enum -> string).
+
+	static void ShowScoreBoard(const ScoreBoard& board);
 };

@@ -3,12 +3,16 @@
 #include <iostream>
 void ConsoleUI::ShowDice(const std::array<int, 5>& dice,
 	const std::array<bool, 5>& keep) {
-	std::cout << "-----------------------------------\n";
+	std::cout << "-------------------------\n";
 	std::cout << "Dice: ";
 	for (int i = 0; i < 5; i++) {
-		std::cout << dice[i] << "(" << (keep[i] ? "O" : "X") << ") ";
+		std::cout << " " << dice[i] << "  ";
 	}
-	std::cout << "\n";
+	std::cout << "\nKeep: ";
+	for (int i = 0; i < 5; i++) {
+		std::cout << "[" << (keep[i] ? "O" : "X") << "] ";
+	}
+	std::cout << "\n-------------------------\n";
 }
 
 int ConsoleUI::ShowMainMenu() {
@@ -25,10 +29,11 @@ void ConsoleUI::ShowPreview(
 	std::cout << "Preview Scores:\n";
 
 	for (size_t i = 0; i < preview.size(); i++) {
-		std::cout << Category_To_String(static_cast<ScoreCategory>(i)) << ": " << preview[i].score << "\n";
+		std::cout << i << ". " << Category_To_String(static_cast<ScoreCategory>(i)) 
+			<< ": " << preview[i].score << "\n";
 
 	}
-	std::cout << "-----------------------------------\n";
+	std::cout << "-------------------------\n";
 }
 std::string ConsoleUI::Category_To_String(ScoreCategory category) {
 	switch (category) {
@@ -46,4 +51,28 @@ std::string ConsoleUI::Category_To_String(ScoreCategory category) {
 	case ScoreCategory::Yacht: return "Yacht";
 	default: return "Unknown";
 	}
+}
+
+void ConsoleUI::ShowScoreBoard(const ScoreBoard& board) {
+	std::cout << "===== SCORE BOARD =====\n";
+	
+	for (int i = 0; i < static_cast<int>(ScoreCategory::COUNT); i++) {
+		if (i == 6)	std::cout << "-------------------------\n";	// 강남-강북 구분선
+		auto cat = static_cast<ScoreCategory>(i);
+
+		std::cout << i << ". "<< Category_To_String(static_cast<ScoreCategory>(i)) << ": ";
+
+		if (board.IsUsed(cat)) {
+			std::cout << board.GetScore(cat);
+		}
+		else {
+			std::cout << "-";
+		}
+		std::cout << "\n";
+
+	}
+	std::cout << "====== SubScore ======\n";
+	std::cout << "Upper Sum: " << board.GetSubTotalScore() << " / 63 " << "\n";
+	std::cout << "Bonus: " << board.GetBonus() << "\n";
+	std::cout << "Total: " << board.GetTotalScore() << "\n";
 }

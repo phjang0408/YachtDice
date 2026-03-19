@@ -11,7 +11,7 @@ void GameManager::Run() {
 			UpdatePlaying();
 			break;
 		case GameState::GameOver:
-			std::cout << "Game Over\n"; // 게임 종료
+			std::cout << "[Game Over]\n"; // 게임 종료
 			return;
 		}
 	}
@@ -33,7 +33,6 @@ void GameManager::UpdateMainMenu() {
 }
 
 void GameManager::UpdatePlaying() {
-
 	switch (turnState) 
 	{
 	case TurnState::StartTurn:
@@ -43,20 +42,25 @@ void GameManager::UpdatePlaying() {
 		break;
 
 	case TurnState::Rolling:
-		dice.Roll_Selected();	// 선택 안 된 것들만 Rolling
+		std::cout << "==== Turn " << currentTurn + 1 << " / 12 =====\n";
+		ConsoleUI::ShowScoreBoard(scoreboard);	// 현재 점수판 보여주기
+		dice.Roll_Selected();					// 선택 안 된 것들만 Rolling
 		rollCount++;
-		preview = Scorer::MakePreviewScores(dice.get_dice_values());
+		preview = Scorer::MakePreviewScores(dice.get_dice_values());	
 		ConsoleUI::ShowDice(dice.get_dice_values(), dice.get_keep_status());
-		ConsoleUI::ShowPreview(preview);
+		ConsoleUI::ShowPreview(preview);	// 점수 미리보기
 
 		if (rollCount < 3) {
-			auto keep = player.DecideKeep();
-			dice.Select_Keep(keep);
-			std::cout << "Roll again? (1=yes, 0=no): ";
+			std::cout << "[Rolled : (" << rollCount << " / 3)] \n";
+			std::cout << "[Roll again? (1 = yes, 0 = no)] : ";
 			int cont;
 			std::cin >> cont;
 			if (cont == 0)
 				turnState = TurnState::SelectScore;
+			else {
+				auto keep = player.DecideKeep();
+				dice.Select_Keep(keep);
+			}
 		}
 		else {
 			turnState = TurnState::SelectScore;
@@ -72,6 +76,7 @@ void GameManager::UpdatePlaying() {
 		break;
 	}
 	case TurnState::EndTurn:
+		std::cout << "[End of Turn!]\n";
 		currentTurn++;
 		if (currentTurn >= 12) {
 			gameState = GameState::GameOver;
