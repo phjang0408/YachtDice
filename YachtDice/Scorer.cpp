@@ -1,7 +1,7 @@
 #include "Scorer.h"
 
 std::array<ScoreSlot, static_cast<size_t>(ScoreCategory::COUNT)>
-Scorer::MakePreviewScores(std::array<int,5>& dice) {
+Scorer::MakePreviewScores(const std::array<int,5>& dice) {
 	// 1. 빈도수 배열 만들기
 	std::array<int, 6> freq = makeFreqArray(dice);
 
@@ -51,6 +51,8 @@ int Scorer::CalcByCategory(ScoreCategory category, 	const std::array<int,5>&dice
 		return Scorer::Calc_LargeStraight(freq);
 	case(ScoreCategory::Yacht):
 		return Scorer::Calc_Yacht(freq);
+	default:
+		return 0;
 	}
 }
 

@@ -27,7 +27,7 @@ int ScoreBoard::GetSubTotalScore() const {
     for (int i = static_cast<int>(ScoreCategory::Ones);
         i <= static_cast<int>(ScoreCategory::Sixes); ++i) {
 
-        auto each_numbers_under_six = static_cast<ScoreCategory>(i);
+        auto each_numbers_under_six = static_cast<ScoreCategory>(i);    // enum으로 변환
 
         if (IsUsed(each_numbers_under_six)) {
             sum += GetScore(each_numbers_under_six);

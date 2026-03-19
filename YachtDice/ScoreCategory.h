@@ -15,5 +15,5 @@ enum class ScoreCategory {
 	LargeStraight,	// 라지 스트레이트
 	Yacht,			// 야추
 
-	COUNT			// 족보 개수
+	COUNT			// 족보 개수 - 12
 };

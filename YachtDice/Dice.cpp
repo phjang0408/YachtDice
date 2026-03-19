@@ -15,7 +15,7 @@ int Dice::Roll_One() {
 }
 
 void Dice::Roll_Selected() {
-	for (size_t i = 0; i<  Dice_Array.size(); i++) {
+	for (size_t i = 0; i < Dice_Array.size(); i++) {
 		if (!Keep_Array[i]) {
 			Dice_Array[i] = Dice::Roll_One();
 		}

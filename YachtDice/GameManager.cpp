@@ -1,6 +1,7 @@
 #include "GameManager.h"
 #include <iostream>
 void GameManager::Run() {
+	// Gamestate에 따라서 진행
 	while (true) {
 		switch (gameState) {
 		case GameState::MainMenu:
@@ -10,7 +11,7 @@ void GameManager::Run() {
 			UpdatePlaying();
 			break;
 		case GameState::GameOver:
-			std::cout << "Game Over\n";
+			std::cout << "Game Over\n"; // 게임 종료
 			return;
 		}
 	}
@@ -18,22 +19,23 @@ void GameManager::Run() {
 
 void GameManager::UpdateMainMenu() {
 	int choice = ConsoleUI::ShowMainMenu();
-
-	if (choice == 1) {
+	if (choice == 1) {	// 게임 시작
 		gameState = GameState::Playing;
 		turnState = TurnState::StartTurn;
 		currentTurn = 0;
 	}
-	else if (choice == 2) {
+	else if (choice == 2) {	// How to Play
 		std::cout << "Roll dice and choose category.\n";
 	}
-	else {
+	else {	// quit
 		gameState = GameState::GameOver;
 	}
 }
 
 void GameManager::UpdatePlaying() {
-	switch (turnState) {
+
+	switch (turnState) 
+	{
 	case TurnState::StartTurn:
 		dice.Reset();
 		rollCount = 0;
@@ -41,10 +43,10 @@ void GameManager::UpdatePlaying() {
 		break;
 
 	case TurnState::Rolling:
-		dice.Roll_Selected();
+		dice.Roll_Selected();	// 선택 안 된 것들만 Rolling
 		rollCount++;
-		preview = Scorer::MakePreviewScores(dice.GetValues());
-		ConsoleUI::ShowDice(dice.GetValues(), dice.GetKeeps());
+		preview = Scorer::MakePreviewScores(dice.get_dice_values());
+		ConsoleUI::ShowDice(dice.get_dice_values(), dice.get_keep_status());
 		ConsoleUI::ShowPreview(preview);
 
 		if (rollCount < 3) {
