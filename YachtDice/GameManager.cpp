@@ -11,7 +11,7 @@ void GameManager::Run() {
 			UpdatePlaying();
 			break;
 		case GameState::GameOver:
-			std::cout << "[Game Over]\n"; // 게임 종료
+			std::cout << "[Good Bye!]\n"; // 게임 종료
 			return;
 		}
 	}
@@ -25,7 +25,7 @@ void GameManager::UpdateMainMenu() {
 		currentTurn = 0;
 	}
 	else if (choice == 2) {	// How to Play
-		std::cout << "This is for explaining game\n";
+		ConsoleUI::ShowHowToPlay();
 	}
 	else {	// quit
 		gameState = GameState::GameOver;

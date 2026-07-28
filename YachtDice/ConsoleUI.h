@@ -13,6 +13,8 @@ public:
 
 	static int ShowMainMenu();
 
+	static void ShowHowToPlay();
+
 	static std::string Category_To_String(ScoreCategory category);	// UI Ãâ·Â¿ë(Enum -> string).
 
 	static void ShowScoreBoard(const ScoreBoard& board);
