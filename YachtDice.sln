@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36623.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YachtDice", "YachtDice\YachtDice.vcxproj", "{49FCF863-541F-477B-8400-9760B2FB16AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YachtDiceDX12", "YachtDiceDX12\YachtDiceDX12.vcxproj", "{7C1D4E2A-3B5F-4A8E-9D61-2F0B8C4A7E15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,12 @@ Global
 		{49FCF863-541F-477B-8400-9760B2FB16AC}.Release|x64.Build.0 = Release|x64
 		{49FCF863-541F-477B-8400-9760B2FB16AC}.Release|x86.ActiveCfg = Release|Win32
 		{49FCF863-541F-477B-8400-9760B2FB16AC}.Release|x86.Build.0 = Release|Win32
+		{7C1D4E2A-3B5F-4A8E-9D61-2F0B8C4A7E15}.Debug|x64.ActiveCfg = Debug|x64
+		{7C1D4E2A-3B5F-4A8E-9D61-2F0B8C4A7E15}.Debug|x64.Build.0 = Debug|x64
+		{7C1D4E2A-3B5F-4A8E-9D61-2F0B8C4A7E15}.Debug|x86.ActiveCfg = Debug|x64
+		{7C1D4E2A-3B5F-4A8E-9D61-2F0B8C4A7E15}.Release|x64.ActiveCfg = Release|x64
+		{7C1D4E2A-3B5F-4A8E-9D61-2F0B8C4A7E15}.Release|x64.Build.0 = Release|x64
+		{7C1D4E2A-3B5F-4A8E-9D61-2F0B8C4A7E15}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
