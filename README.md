@@ -237,7 +237,7 @@ classDiagram
 | 빌드 | Visual Studio 2022 (MSBuild, v143) |
 
 DirectX 12 버전이 어떻게 동작하는지(그래픽스 기초 개념, 초기화 과정, 한 프레임이 그려지는 순서, 셰이더, 애니메이션, 값 바꿔보기 실습 등)는
-👉 **[docs/DX12_GUIDE.md](docs/DX12_GUIDE.md)** 에 자세히 정리했습니다.
+ **[docs/DX12_GUIDE.md](docs/DX12_GUIDE.md)** 에 정리하며 공부했습니다.
 
 ## 프로젝트 목적
 
