@@ -47,5 +47,5 @@ int ScoreBoard::GetTotalScore() const {
         if (slot.used)
             total += slot.score;
     }
-    return total;
+    return total + GetBonus();  // 상단 보너스(63점 이상 시 35점) 포함
 }

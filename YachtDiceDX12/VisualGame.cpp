@@ -415,10 +415,10 @@ void VisualGame::DrawScoreBoard() {
 	ui.Text(bonus > 0 ? L"보너스 +35" : L"보너스 +0", { 290, 318, 400, 342 }, TextStyle::Small,
 		bonus > 0 ? Rgb(0xFFCF5A) : Rgb(0x7D8A97), DWRITE_TEXT_ALIGNMENT_TRAILING);
 
-	// 총점 (보너스 포함)
+	// 총점 (GetTotalScore가 보너스를 포함)
 	ui.Line({ 48, 572 }, { 400, 572 }, Rgb(0xFFFFFF, 0.12f), 1.0f);
 	ui.Text(L"TOTAL", { 48, 582, 220, 680 }, TextStyle::Heading, Rgb(0xFFFFFF));
-	ui.Text(std::to_wstring(scoreboard.GetTotalScore() + bonus), { 200, 582, 400, 680 }, TextStyle::Big,
+	ui.Text(std::to_wstring(scoreboard.GetTotalScore()),{ 200, 582, 400, 680 }, TextStyle::Big,
 		Rgb(0xFFCF5A), DWRITE_TEXT_ALIGNMENT_TRAILING);
 }
 
@@ -476,10 +476,11 @@ void VisualGame::DrawGameOver() {
 
 	const int upper = scoreboard.GetSubTotalScore();
 	const int bonus = scoreboard.GetBonus();
-	const int lower = scoreboard.GetTotalScore() - upper;
+	const int total = scoreboard.GetTotalScore();	// 상단 + 보너스 + 하단
+	const int lower = total - upper - bonus;
 	ui.Text(L"GAME OVER", { 520, 160, 1160, 210 }, TextStyle::Heading, Rgb(0xFFFFFF), DWRITE_TEXT_ALIGNMENT_CENTER);
 	ui.Text(L"최종 점수", { 520, 230, 1160, 260 }, TextStyle::Body, Rgb(0xB8C4CF), DWRITE_TEXT_ALIGNMENT_CENTER);
-	ui.Text(std::to_wstring(upper + bonus + lower), { 520, 262, 1160, 360 }, TextStyle::Title, Rgb(0xFFCF5A), DWRITE_TEXT_ALIGNMENT_CENTER);
+	ui.Text(std::to_wstring(total),{ 520, 262, 1160, 360 }, TextStyle::Title, Rgb(0xFFCF5A), DWRITE_TEXT_ALIGNMENT_CENTER);
 	ui.Text(L"상단 " + std::to_wstring(upper) + L"   +   보너스 " + std::to_wstring(bonus) + L"   +   하단 " + std::to_wstring(lower),
 		{ 520, 390, 1160, 430 }, TextStyle::Body, Rgb(0xE6ECF2), DWRITE_TEXT_ALIGNMENT_CENTER);
 

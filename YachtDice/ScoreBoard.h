@@ -19,7 +19,7 @@ public:
 
 	int GetSubTotalScore() const;	// 강북 지역 점수
 	int GetBonus()const;			// 강북 조건 달성했는지
-	int GetTotalScore() const;
+	int GetTotalScore() const;		// 12칸 합계 + 상단 보너스
 private:
 	// 점수판 : slots들로 구성
 	std::array<ScoreSlot, static_cast<size_t>(ScoreCategory::COUNT)> slots;

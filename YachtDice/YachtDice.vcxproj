@@ -126,7 +126,6 @@
     <ClCompile Include="ConsoleUI.cpp" />
     <ClCompile Include="Dice.cpp" />
     <ClCompile Include="GameManager.cpp" />
-    <ClCompile Include="GameManager.h" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="ScoreBoard.cpp" />
     <ClCompile Include="Scorer.cpp" />
@@ -135,6 +134,7 @@
   <ItemGroup>
     <ClInclude Include="ConsoleUI.h" />
     <ClInclude Include="Dice.h" />
+    <ClInclude Include="GameManager.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="ScoreBoard.h" />
     <ClInclude Include="ScoreCategory.h" />

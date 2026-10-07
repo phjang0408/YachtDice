@@ -30,9 +30,6 @@
     <ClCompile Include="Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GameManager.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="ConsoleUI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -41,6 +38,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="ScoreCategory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
